@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2016 The TensorFlow Authors. All Rights Reserved.
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#00000000">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/toolbar"
+        android:theme="@style/AppTheme"
+        android:elevation="4dp">
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/left_arrow"/>
+
+        <TextView
+            android:id="@+id/title_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kamera "
+            android:textSize="18sp"
+            android:fontFamily="@font/sf_text_reg"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/black"
+        android:orientation="vertical">
+
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            tools:context="pp.facerecognizer.CameraActivity" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="Training Wajah"
+        android:textAllCaps="false"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="@font/sf_text_reg"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+         />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

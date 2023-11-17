@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Face Recognizer using Masks</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="enter_name">Nama Lengkap Anda</string>
+
+    <string name="select_name">Tambah kelas</string>
+    <string name="ok">OK</string>
+
+    <string name="initializing">Initializing…</string>
+    <string name="training">Training data…</string>
+    <string name="try_it_later">Try it again later</string>
+
+</resources>
