@@ -9,7 +9,7 @@ The project is heavily inspired by
 * [Android LibSVM](https://github.com/yctung/AndroidLibSVM)
 * [Tensorflow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
 
-The code can recognize 20 people's masked faces. [(click here)](https://github.com/ann-sa/face-recognizer/blob/master/app/src/main/assets/label)
+The code can recognize 20 people's masked faces. Click [(here)](https://github.com/ann-sa/face-recognizer/blob/master/app/src/main/assets/label) to see labels.
 Also, you can add new person using photos.
 
 ## Pre-trained model
